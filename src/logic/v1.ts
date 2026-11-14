@@ -8,7 +8,7 @@ export const M3u8ProxyV1 = async (request: Request): Promise<Response> => {
 
   const targetUrl =
     url.searchParams.get("url") ||
-    "http://www.zp12973.tld.122.155.171.38.no-domain.name/iptv/";
+    "http://www.zp12973.tld.122.155.171.38.no-domain.name/iptv";
 
   const originUrl =
     url.searchParams.get("origin") || "https://doodii.me";

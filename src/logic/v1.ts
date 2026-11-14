@@ -4,7 +4,7 @@ export const M3u8ProxyV1 = async (request: Request): Promise<Response> => {
 
   // ค่าเริ่มต้น
   const refererUrl =
-    url.searchParams.get("referer") || "https://doodii.me";
+    url.searchParams.get("referer") || "https://atmflix.live/";
 
   const targetUrl =
     url.searchParams.get("url") ||

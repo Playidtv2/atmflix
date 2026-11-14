@@ -4,14 +4,14 @@ export const M3u8ProxyV1 = async (request: Request): Promise<Response> => {
 
   // ค่าเริ่มต้น
   const refererUrl =
-    url.searchParams.get("referer") || "https://kicksball.com/";
+    url.searchParams.get("referer") || "https://doodii.me";
 
   const targetUrl =
     url.searchParams.get("url") ||
-    "https://dov.streaming-api.xyz/kicksballcom/truemoviehits/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMTQvMjAyNiA2OjA2OjA4IEFNJmhhc2hfdmFsdWU9M0Z1R2YrblEya3pFeldkM0l4MVptQT09JnZhbGlkbWludXRlcz0yMA==";
+    "zp12973.tld.122.155.171.38.no-domain.name/iptv";
 
   const originUrl =
-    url.searchParams.get("origin") || "https://kicksball.com/";
+    url.searchParams.get("origin") || "https://doodii.me";
 
   const corsHeaders = {
     "Access-Control-Allow-Origin": "*",

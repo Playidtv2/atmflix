@@ -8,7 +8,7 @@ export const M3u8ProxyV1 = async (request: Request): Promise<Response> => {
 
   const targetUrl =
     url.searchParams.get("url") ||
-    "https://cdn1.amazaa.live/db24h/event1/playlist.m3u8";
+    "https://dov.streaming-api.xyz/kicksballcom/truemoviehits/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMTQvMjAyNiA2OjA2OjA4IEFNJmhhc2hfdmFsdWU9M0Z1R2YrblEya3pFeldkM0l4MVptQT09JnZhbGlkbWludXRlcz0yMA==";
 
   const originUrl =
     url.searchParams.get("origin") || "https://kicksball.com/";

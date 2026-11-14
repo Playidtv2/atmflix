@@ -4,14 +4,14 @@ export const M3u8ProxyV1 = async (request: Request): Promise<Response> => {
 
   // ค่าเริ่มต้น
   const refererUrl =
-    url.searchParams.get("referer") || "https://dooball24h.com/";
+    url.searchParams.get("referer") || "https://kicksball.com/";
 
   const targetUrl =
     url.searchParams.get("url") ||
     "https://cdn1.amazaa.live/db24h/event1/playlist.m3u8";
 
   const originUrl =
-    url.searchParams.get("origin") || "https://dooball24h.com";
+    url.searchParams.get("origin") || "https://kicksball.com/";
 
   const corsHeaders = {
     "Access-Control-Allow-Origin": "*",
